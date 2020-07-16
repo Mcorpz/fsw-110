@@ -1,9 +1,11 @@
 var newNav = document.createElement("nav") 
 document.body.append(newNav);
 
+
 var newLink1 = document.createElement("a")
 newLink1.textContent = 'Home'
-document.body.append(newLink1);
+
+newNav.append(newLink1)
 
 var h1 = document.createElement("h1")
 h1.textContent = "This is another week in DOM"
@@ -28,8 +30,8 @@ myList.append(newList3)
 
 
 var newFooter = document.createElement("footer") 
-document.body.append(newNav);
+document.body.append(newFooter);
 
 var newLink2 = document.createElement("a")
 newLink2.textContent = 'Mcorpz'
-document.body.append(newLink2);
+newFooter.append(newLink2)
