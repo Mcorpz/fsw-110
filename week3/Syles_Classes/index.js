@@ -22,22 +22,3 @@ function h2(){
 
 
 h2()
-// newLi1.textContent = "Origins"
-// var newLi2 = document.createElement("li")
-// newLi2.textContent = "Odyssey"
-// var newLi3 = document.createElement("li")
-// newLi3.textContent = "Valhala"
-// var newLi4 = document.createElement("li")
-// newLi4.textContent = "Wildlands"
-// var newLi5 = document.createElement("li")
-// newLi5.textContent = "Breakpoint"
-// var myList = document.createElement("ol")
-// document.body.append(myList);
-
-
-
-// myList.append(newLi1)
-// myList.append(newLi2)
-// myList.append(newLi3)
-// myList.append(newLi4)
-// myList.append(newLi5)
