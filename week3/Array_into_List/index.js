@@ -1,14 +1,3 @@
-var 
- 
-function h1() {
-    for ( var i = 1; i <= 10; i++)
-        var newH1 = document.createElement("h1")
-        document.body.append(newH1)
-
-}
-
-console.log(newH1)
-
 var names =[
     "Steve",
     "Larry",
@@ -20,11 +9,10 @@ var names =[
     "Emily",
 ]
 
+var newH2 = document.createElement("h2");
 
-for(var i = 0; i < names.length; i++)
-{
- console.log(names[i]); 
-}
-
-
+for ( var i = 0; i < names.length; i++){
+        newH2.innerHTML += names[i]+"<br>"
+        document.body.append(newH2)
+    };
 
