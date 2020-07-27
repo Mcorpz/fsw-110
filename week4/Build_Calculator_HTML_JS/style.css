@@ -1,12 +1,15 @@
 .addition {
     padding: 15px;
     background-color: orange;
+    margin: 10px 0px
 }
 .Subtraction {
     padding: 15px;
     background-color: red;
+    margin: 10px 0px
 }
 .multiplication {
     padding: 15px;
     background-color: yellow;
+    margin: 10px 0px
 }
