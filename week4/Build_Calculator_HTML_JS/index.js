@@ -24,7 +24,7 @@ sub.onclick = function (){
     console.log(delta)
     console.log(foxtrot)
     console.log(Number(delta) - Number(foxtrot))
-    var hotel = document.getElementById('answerSub').textContent = `The answer is ${Number(delta) - Number(foxtrot)}!`
+    var hotel = document.getElementById('answer1').textContent = `The answer is ${Number(delta) - Number(foxtrot)}!`
     
     
     return hotel
